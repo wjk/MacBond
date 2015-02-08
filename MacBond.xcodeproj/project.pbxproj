@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F0288431A87059B00084C74 /* Bond+AppKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0288421A87059B00084C74 /* Bond+AppKit.swift */; };
 		1F62361D1A86FD6000C892B9 /* MacBond.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F62361C1A86FD6000C892B9 /* MacBond.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F6236361A86FD9800C892B9 /* Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6236331A86FD9800C892B9 /* Bond.swift */; };
 		1F6236371A86FD9800C892B9 /* Bond+Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6236341A86FD9800C892B9 /* Bond+Arrays.swift */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F0288421A87059B00084C74 /* Bond+AppKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bond+AppKit.swift"; sourceTree = "<group>"; };
 		1F6236171A86FD6000C892B9 /* MacBond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MacBond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F62361B1A86FD6000C892B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F62361C1A86FD6000C892B9 /* MacBond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacBond.h; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				1F6236331A86FD9800C892B9 /* Bond.swift */,
 				1F6236341A86FD9800C892B9 /* Bond+Arrays.swift */,
 				1F6236351A86FD9800C892B9 /* Bond+Foundation.swift */,
+				1F0288421A87059B00084C74 /* Bond+AppKit.swift */,
 				1F62361C1A86FD6000C892B9 /* MacBond.h */,
 				1F62361B1A86FD6000C892B9 /* Info.plist */,
 			);
@@ -142,6 +145,7 @@
 				1F6236371A86FD9800C892B9 /* Bond+Arrays.swift in Sources */,
 				1F6236361A86FD9800C892B9 /* Bond.swift in Sources */,
 				1F6236381A86FD9800C892B9 /* Bond+Foundation.swift in Sources */,
+				1F0288431A87059B00084C74 /* Bond+AppKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +286,7 @@
 				1F62362F1A86FD6000C892B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
