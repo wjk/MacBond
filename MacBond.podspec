@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'MacBond'
-    s.version = '1.0.0'
+    s.version = '2.0.0'
     s.license = 'MIT'
     s.platform = :osx, '10.10'
     s.summary = 'An OS X port of the Bond binding framework'
