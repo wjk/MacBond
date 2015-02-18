@@ -107,7 +107,7 @@ extension NSTextField: Dynamical, Bondable {
     
     public var designatedBond: Bond<String> {
         if let b: AnyObject = objc_getAssociatedObject(self, &designatedBondHandleNSLabel) {
-            return b as Bond<String>
+            return b as! Bond<String>
         } else {
             let b = Bond<String>() {
                 [unowned self] v in
@@ -122,7 +122,7 @@ extension NSTextField: Dynamical, Bondable {
     public var editableBond: Bond<Bool> {
         get {
             if let b: AnyObject = objc_getAssociatedObject(self, &designatedBondHandleNSButton_StringValue) {
-                return b as Bond<Bool>
+                return b as! Bond<Bool>
             } else {
                 let b = Bond<Bool>() {
                     [unowned self] v in
@@ -142,7 +142,7 @@ extension NSTextField: Dynamical, Bondable {
 extension NSProgressIndicator: Bondable {
     public var designatedBond: Bond<Double> {
         if let b: AnyObject = objc_getAssociatedObject(self, &designatedBondHandleNSProgressIndicator) {
-            return b as Bond<Double>
+            return b as! Bond<Double>
         } else {
             let b = Bond<Double>() {
                 [unowned self] v in
@@ -163,7 +163,7 @@ extension NSButton: Dynamical {
     public var enabledBond: Bond<Bool> {
         get {
             if let b: AnyObject = objc_getAssociatedObject(self, &designatedBondHandleNSButton_Enabled) {
-                return b as Bond<Bool>
+                return b as! Bond<Bool>
             } else {
                 let b = Bond<Bool>() {
                     [unowned self] v in
@@ -179,7 +179,7 @@ extension NSButton: Dynamical {
     public var checkedBond: Bond<Bool> {
         get {
             if let b: AnyObject = objc_getAssociatedObject(self, &designatedBondHandleNSButton_State) {
-                return b as Bond<Bool>
+                return b as! Bond<Bool>
             } else {
                 let b = Bond<Bool>() {
                     [unowned self] v in
@@ -195,7 +195,7 @@ extension NSButton: Dynamical {
     public var textBond: Bond<String> {
         get {
             if let b: AnyObject = objc_getAssociatedObject(self, &designatedBondHandleNSButton_StringValue) {
-                return b as Bond<String>
+                return b as! Bond<String>
             } else {
                 let b = Bond<String>() {
                     [unowned self] v in
